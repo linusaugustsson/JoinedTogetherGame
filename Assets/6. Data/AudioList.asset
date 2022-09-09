@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdc8da30484e06747899dc8f50890b3c, type: 3}
+  m_Name: AudioList
+  m_EditorClassIdentifier: 
+  audioSourcePrefab: {fileID: 268258533273303824, guid: cf4666898f278d7478b6002621b279fd, type: 3}
+  transitionPrefab: {fileID: 1722882158152325974, guid: 15d759ac21253504e8c9f09f4d17aa48, type: 3}
+  soundEffects:
+  - name: swing
+    transitionsToSoundEffect: []
+    transitionsToMusic: []
+    entries:
+    - clip: {fileID: 8300000, guid: 9dcdae016f2a58944a9aaa6ffde53fa3, type: 3}
+      looping: 0
+      priority: 0
+      minVolume: 0
+      maxVolume: 0
+      minPitch: 0
+      maxPitch: 0.3
+      panStereo: 0
+      spatialBlend: 0
+  - name: splat
+    transitionsToSoundEffect: []
+    transitionsToMusic: []
+    entries:
+    - clip: {fileID: 8300000, guid: 2b79147c03ebffc44aa692b9afc2ae2d, type: 3}
+      looping: 0
+      priority: 0
+      minVolume: -0.5
+      maxVolume: -0.5
+      minPitch: -0.2
+      maxPitch: 0.2
+      panStereo: 0
+      spatialBlend: 0
+  - name: jump
+    transitionsToSoundEffect: []
+    transitionsToMusic: []
+    entries:
+    - clip: {fileID: 8300000, guid: 0db206b4cbbc1694a9ea248b15d1da41, type: 3}
+      looping: 0
+      priority: 0
+      minVolume: 0
+      maxVolume: 0
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: 0
+    - clip: {fileID: 8300000, guid: 7e67279ba798dbe48b74f69d927243fa, type: 3}
+      looping: 0
+      priority: 0
+      minVolume: 0
+      maxVolume: 0
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: 0
+  - name: item
+    transitionsToSoundEffect: []
+    transitionsToMusic: []
+    entries:
+    - clip: {fileID: 8300000, guid: 254e53b47328049438608150c6dd2f12, type: 3}
+      looping: 0
+      priority: 0
+      minVolume: 0
+      maxVolume: 0
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: 0
+    - clip: {fileID: 8300000, guid: 5f612b5a381ddb443bad639ad9b2785a, type: 3}
+      looping: 0
+      priority: 0
+      minVolume: 0
+      maxVolume: 0
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: 0
+    - clip: {fileID: 8300000, guid: 33f8b894f6e23fc4e9fffe80ce87ca6a, type: 3}
+      looping: 0
+      priority: 0
+      minVolume: 0
+      maxVolume: 0
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: 0
+  - name: win
+    transitionsToSoundEffect: []
+    transitionsToMusic: []
+    entries:
+    - clip: {fileID: 8300000, guid: 713ce8595d246b54884322788292c945, type: 3}
+      looping: 0
+      priority: 0
+      minVolume: 0
+      maxVolume: 0
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+    - clip: {fileID: 8300000, guid: 2f111bff4a8e5c84391996ac56839ef6, type: 3}
+      looping: 0
+      priority: 0
+      minVolume: 0
+      maxVolume: 0
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  - name: death
+    transitionsToSoundEffect: []
+    transitionsToMusic: []
+    entries:
+    - clip: {fileID: 8300000, guid: 1693d845dc9b0fa4aa6ea3b5f5df2e67, type: 3}
+      looping: 0
+      priority: 0
+      minVolume: 0
+      maxVolume: 0
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: 0
+    - clip: {fileID: 8300000, guid: d7272e2eddc2b6e489cb7464750833bd, type: 3}
+      looping: 0
+      priority: 0
+      minVolume: 0
+      maxVolume: 0
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: 0
+  - name: footstep
+    transitionsToSoundEffect: []
+    transitionsToMusic: []
+    entries:
+    - clip: {fileID: 8300000, guid: 2378f57f7e94edb4985c675055328152, type: 3}
+      looping: 0
+      priority: 0
+      minVolume: 0
+      maxVolume: 0
+      minPitch: 0
+      maxPitch: 0.3
+      panStereo: 0
+      spatialBlend: 0
+  music:
+  - name: temporary_loop
+    transitionsToSoundEffect: []
+    transitionsToMusic: []
+    entries:
+    - clip: {fileID: 8300000, guid: 870b754d956e2994da45888f4ca145fe, type: 3}
+      looping: 1
+      priority: 0
+      minVolume: 0
+      maxVolume: 0
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  globalData: {fileID: 11400000, guid: 5410d88cdc4fc8e4c9206335469978fd, type: 2}

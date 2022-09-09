@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137b5c72b5c231e468c361066245933d, type: 3}
+  m_Name: BodyPartList
+  m_EditorClassIdentifier: 
+  entries:
+  - name: box
+    headPrefab: {fileID: 2388802971108214243, guid: feaea1ed727dbf54bb746600546753c0, type: 3}
+    torsoPrefab: {fileID: 3061554390602796245, guid: ef6ac3c7f3986e4499a308c25a11d6b3, type: 3}
+    rightArmPrefab: {fileID: 6375019686513011746, guid: 9d745ee2adb25604da6f965a4d55e194, type: 3}
+    leftArmPrefab: {fileID: 2908173666188571089, guid: 9034b0ed299899b4fa685437879f2d75, type: 3}
+    rightLegPrefab: {fileID: 6031585006149200430, guid: cdf0add1216ba364191875b0bfe0082a, type: 3}
+    leftLegPrefab: {fileID: 7040263045868267675, guid: 79fb19501b9b74d46ae5bfa5643eca24, type: 3}
+    prefabs:
+    - {fileID: 2388802971108214243, guid: feaea1ed727dbf54bb746600546753c0, type: 3}
+    - {fileID: 3061554390602796245, guid: ef6ac3c7f3986e4499a308c25a11d6b3, type: 3}
+    - {fileID: 6375019686513011746, guid: 9d745ee2adb25604da6f965a4d55e194, type: 3}
+    - {fileID: 2908173666188571089, guid: 9034b0ed299899b4fa685437879f2d75, type: 3}
+    - {fileID: 6031585006149200430, guid: cdf0add1216ba364191875b0bfe0082a, type: 3}
+    - {fileID: 7040263045868267675, guid: 79fb19501b9b74d46ae5bfa5643eca24, type: 3}
+  - name: capsule
+    headPrefab: {fileID: 4223890574122055285, guid: 43a97def6edf4a242af45847b6bce5de, type: 3}
+    torsoPrefab: {fileID: 5873534759429843662, guid: 29ee17277059617428bc5775a3e35e71, type: 3}
+    rightArmPrefab: {fileID: 2218024505279483792, guid: 9d686dcd6befb1b43a3ce4033c8b566e, type: 3}
+    leftArmPrefab: {fileID: 4825119703557764246, guid: 8ee1834bee378ec4ab6720247180c077, type: 3}
+    rightLegPrefab: {fileID: 9001548234047184174, guid: d6fdada4011463b4f8015aadcf44167c, type: 3}
+    leftLegPrefab: {fileID: 5294394167700469153, guid: f3c049608fa2a3a419ca9ae803039ec6, type: 3}
+    prefabs:
+    - {fileID: 4223890574122055285, guid: 43a97def6edf4a242af45847b6bce5de, type: 3}
+    - {fileID: 5873534759429843662, guid: 29ee17277059617428bc5775a3e35e71, type: 3}
+    - {fileID: 2218024505279483792, guid: 9d686dcd6befb1b43a3ce4033c8b566e, type: 3}
+    - {fileID: 4825119703557764246, guid: 8ee1834bee378ec4ab6720247180c077, type: 3}
+    - {fileID: 9001548234047184174, guid: d6fdada4011463b4f8015aadcf44167c, type: 3}
+    - {fileID: 5294394167700469153, guid: f3c049608fa2a3a419ca9ae803039ec6, type: 3}
+  - name: runner
+    headPrefab: {fileID: 5926424306721933434, guid: c79badddddc90274382aa8b8f4b497f6, type: 3}
+    torsoPrefab: {fileID: 3273062673695739716, guid: 515390dbb7e78c449b1920e4e491203c, type: 3}
+    rightArmPrefab: {fileID: 1406302912202096607, guid: 9d152e60e0cb3de448edd78e96feb503, type: 3}
+    leftArmPrefab: {fileID: 4141526262411833657, guid: 9aff8f17c95535e4fa96b41b41f4a386, type: 3}
+    rightLegPrefab: {fileID: 3056299111303037942, guid: c6b49cb1df0dffc49b1b8c8d67caa7b4, type: 3}
+    leftLegPrefab: {fileID: 7236947505907323539, guid: ceb18faa06ac51c4f81856d7bec63e5f, type: 3}
+    prefabs:
+    - {fileID: 5926424306721933434, guid: c79badddddc90274382aa8b8f4b497f6, type: 3}
+    - {fileID: 3273062673695739716, guid: 515390dbb7e78c449b1920e4e491203c, type: 3}
+    - {fileID: 1406302912202096607, guid: 9d152e60e0cb3de448edd78e96feb503, type: 3}
+    - {fileID: 4141526262411833657, guid: 9aff8f17c95535e4fa96b41b41f4a386, type: 3}
+    - {fileID: 3056299111303037942, guid: c6b49cb1df0dffc49b1b8c8d67caa7b4, type: 3}
+    - {fileID: 7236947505907323539, guid: ceb18faa06ac51c4f81856d7bec63e5f, type: 3}
+  - name: psycho
+    headPrefab: {fileID: 3581349879845160879, guid: 3bca90fde7f32704da61f9cbcfaaaf2a, type: 3}
+    torsoPrefab: {fileID: 6285922223327406858, guid: f97a487491af8c14c8afb6268e97b8f3, type: 3}
+    rightArmPrefab: {fileID: 5993697839508171478, guid: ad82a7fd6d373f348b704e0a4ad671fb, type: 3}
+    leftArmPrefab: {fileID: 1817134193535564678, guid: ea268d28533526348974050f98cebed3, type: 3}
+    rightLegPrefab: {fileID: 8171107156940948352, guid: a3114b0477047554f90e183c34ca6b01, type: 3}
+    leftLegPrefab: {fileID: 3931727200805428829, guid: d26d9ea7da685a249ba53506e8301907, type: 3}
+    prefabs:
+    - {fileID: 3581349879845160879, guid: 3bca90fde7f32704da61f9cbcfaaaf2a, type: 3}
+    - {fileID: 6285922223327406858, guid: f97a487491af8c14c8afb6268e97b8f3, type: 3}
+    - {fileID: 5993697839508171478, guid: ad82a7fd6d373f348b704e0a4ad671fb, type: 3}
+    - {fileID: 1817134193535564678, guid: ea268d28533526348974050f98cebed3, type: 3}
+    - {fileID: 8171107156940948352, guid: a3114b0477047554f90e183c34ca6b01, type: 3}
+    - {fileID: 3931727200805428829, guid: d26d9ea7da685a249ba53506e8301907, type: 3}
+  - name: frogman
+    headPrefab: {fileID: 6687816417263773116, guid: 169a0b986b6306047aa4ee47be8b3a43, type: 3}
+    torsoPrefab: {fileID: 87269588406047201, guid: c7201169816b40f4cb60a077bca25bc6, type: 3}
+    rightArmPrefab: {fileID: 5528748907081697212, guid: ac975dd6bc705b14d83e24f403e841f0, type: 3}
+    leftArmPrefab: {fileID: 3440419175969489355, guid: 0b763ec630ac7914c887e477ea940859, type: 3}
+    rightLegPrefab: {fileID: 9135158246211049934, guid: ce644a6eda5c8d048a7d3f9854648f10, type: 3}
+    leftLegPrefab: {fileID: 8202428304400243225, guid: 06d10277698b2b440a3899f7889c0053, type: 3}
+    prefabs:
+    - {fileID: 6687816417263773116, guid: 169a0b986b6306047aa4ee47be8b3a43, type: 3}
+    - {fileID: 87269588406047201, guid: c7201169816b40f4cb60a077bca25bc6, type: 3}
+    - {fileID: 5528748907081697212, guid: ac975dd6bc705b14d83e24f403e841f0, type: 3}
+    - {fileID: 3440419175969489355, guid: 0b763ec630ac7914c887e477ea940859, type: 3}
+    - {fileID: 9135158246211049934, guid: ce644a6eda5c8d048a7d3f9854648f10, type: 3}
+    - {fileID: 8202428304400243225, guid: 06d10277698b2b440a3899f7889c0053, type: 3}
+  - name: jumpman
+    headPrefab: {fileID: 5977061243277304266, guid: b29f0e3bf0eb13c4d99c60fce26fd0dd, type: 3}
+    torsoPrefab: {fileID: 8882880540007999588, guid: 4059734ee6bd7f34eae16410003b57ff, type: 3}
+    rightArmPrefab: {fileID: 6350751675396437018, guid: aa2e35069de5620489912a40bcc08a43, type: 3}
+    leftArmPrefab: {fileID: 1867764688662736896, guid: 6f70cf716a4b59144abf3c3f8ecfa4bf, type: 3}
+    rightLegPrefab: {fileID: 6727582188321051226, guid: 57e3664f7a845b346b82714e46865b80, type: 3}
+    leftLegPrefab: {fileID: 5943581707619035896, guid: 06f20ec2303c5f24aafddec7f5cfad2f, type: 3}
+    prefabs:
+    - {fileID: 5977061243277304266, guid: b29f0e3bf0eb13c4d99c60fce26fd0dd, type: 3}
+    - {fileID: 8882880540007999588, guid: 4059734ee6bd7f34eae16410003b57ff, type: 3}
+    - {fileID: 6350751675396437018, guid: aa2e35069de5620489912a40bcc08a43, type: 3}
+    - {fileID: 1867764688662736896, guid: 6f70cf716a4b59144abf3c3f8ecfa4bf, type: 3}
+    - {fileID: 6727582188321051226, guid: 57e3664f7a845b346b82714e46865b80, type: 3}
+    - {fileID: 5943581707619035896, guid: 06f20ec2303c5f24aafddec7f5cfad2f, type: 3}
+  - name: dennis
+    headPrefab: {fileID: 4702323744457877814, guid: 5ac8d93d9daa70f499b2db5ec014913f, type: 3}
+    torsoPrefab: {fileID: 2423484492379083572, guid: d11c7e3606734c346aa416e9a37fe9af, type: 3}
+    rightArmPrefab: {fileID: 4744192907162784555, guid: a27ecd4578f7c2c419b25615451c358a, type: 3}
+    leftArmPrefab: {fileID: 5082460187874033733, guid: bdeea6c23793fdc4a8e49d8a24e78732, type: 3}
+    rightLegPrefab: {fileID: 8727705161325694213, guid: 9efc1489478e1c84fbcbdb6f2830c01f, type: 3}
+    leftLegPrefab: {fileID: 3342691455803211935, guid: 60ff5410593f6f744b4045f792525f22, type: 3}
+    prefabs:
+    - {fileID: 4702323744457877814, guid: 5ac8d93d9daa70f499b2db5ec014913f, type: 3}
+    - {fileID: 2423484492379083572, guid: d11c7e3606734c346aa416e9a37fe9af, type: 3}
+    - {fileID: 4744192907162784555, guid: a27ecd4578f7c2c419b25615451c358a, type: 3}
+    - {fileID: 5082460187874033733, guid: bdeea6c23793fdc4a8e49d8a24e78732, type: 3}
+    - {fileID: 8727705161325694213, guid: 9efc1489478e1c84fbcbdb6f2830c01f, type: 3}
+    - {fileID: 3342691455803211935, guid: 60ff5410593f6f744b4045f792525f22, type: 3}
+  - name: pilot
+    headPrefab: {fileID: 2672667776453466444, guid: 4546bba966cb56b4584d4d5eea4e009e, type: 3}
+    torsoPrefab: {fileID: 4797385084945273145, guid: 6d70732c89eda41459b8bf4a217504ae, type: 3}
+    rightArmPrefab: {fileID: 7838610594179745832, guid: 2eceabae527b16947940c18cf8aa25a0, type: 3}
+    leftArmPrefab: {fileID: 2419315444882213722, guid: 2fb1dfcb14e171c4dbc22ac684f35dea, type: 3}
+    rightLegPrefab: {fileID: 7151957603331374749, guid: 0f247151226082e47b6754b53fae75fe, type: 3}
+    leftLegPrefab: {fileID: 4214147298915790556, guid: 147f0dc095b0d4e46980e45cca6f42d6, type: 3}
+    prefabs:
+    - {fileID: 2672667776453466444, guid: 4546bba966cb56b4584d4d5eea4e009e, type: 3}
+    - {fileID: 4797385084945273145, guid: 6d70732c89eda41459b8bf4a217504ae, type: 3}
+    - {fileID: 7838610594179745832, guid: 2eceabae527b16947940c18cf8aa25a0, type: 3}
+    - {fileID: 2419315444882213722, guid: 2fb1dfcb14e171c4dbc22ac684f35dea, type: 3}
+    - {fileID: 7151957603331374749, guid: 0f247151226082e47b6754b53fae75fe, type: 3}
+    - {fileID: 4214147298915790556, guid: 147f0dc095b0d4e46980e45cca6f42d6, type: 3}
+  - name: clucko
+    headPrefab: {fileID: 8297330199998865244, guid: c1bfec38caecab441ad3837aa1abaefa, type: 3}
+    torsoPrefab: {fileID: 6874364277624252402, guid: bdcd47bc26f6d3c44bad16979edcf742, type: 3}
+    rightArmPrefab: {fileID: 4380910506398589444, guid: 18e5da24028aab24e902831a8c91593b, type: 3}
+    leftArmPrefab: {fileID: 6093520939291822766, guid: 6cf9fcc253b27844ba85d3adff71fc8b, type: 3}
+    rightLegPrefab: {fileID: 6562716328641983853, guid: 5841df96e29b4e247937fee455bb4f13, type: 3}
+    leftLegPrefab: {fileID: 2997135888669813862, guid: 9062dc738b76bc7489008278fc6fd9ee, type: 3}
+    prefabs:
+    - {fileID: 8297330199998865244, guid: c1bfec38caecab441ad3837aa1abaefa, type: 3}
+    - {fileID: 6874364277624252402, guid: bdcd47bc26f6d3c44bad16979edcf742, type: 3}
+    - {fileID: 4380910506398589444, guid: 18e5da24028aab24e902831a8c91593b, type: 3}
+    - {fileID: 6093520939291822766, guid: 6cf9fcc253b27844ba85d3adff71fc8b, type: 3}
+    - {fileID: 6562716328641983853, guid: 5841df96e29b4e247937fee455bb4f13, type: 3}
+    - {fileID: 2997135888669813862, guid: 9062dc738b76bc7489008278fc6fd9ee, type: 3}
+  - name: harry
+    headPrefab: {fileID: 1902095245624190876, guid: 134e833adc489ef4f816c634f181b56b, type: 3}
+    torsoPrefab: {fileID: 5452322191699614215, guid: dd2e1c1a26f28ab488442f9ad9c6b446, type: 3}
+    rightArmPrefab: {fileID: 2220587929983622263, guid: 6bdab3ea3fa8f08408a151f96bb40d28, type: 3}
+    leftArmPrefab: {fileID: 4661101574850152594, guid: 0af50d90d817afc42b56316f2edaee4c, type: 3}
+    rightLegPrefab: {fileID: 1773251088488161905, guid: 303012d9b7faa1d4eaf857ea58b3b41c, type: 3}
+    leftLegPrefab: {fileID: 76853387651969268, guid: 4c881a8f944534a45920315dde656d69, type: 3}
+    prefabs:
+    - {fileID: 8297330199998865244, guid: c1bfec38caecab441ad3837aa1abaefa, type: 3}
+    - {fileID: 6874364277624252402, guid: bdcd47bc26f6d3c44bad16979edcf742, type: 3}
+    - {fileID: 4380910506398589444, guid: 18e5da24028aab24e902831a8c91593b, type: 3}
+    - {fileID: 6093520939291822766, guid: 6cf9fcc253b27844ba85d3adff71fc8b, type: 3}
+    - {fileID: 6562716328641983853, guid: 5841df96e29b4e247937fee455bb4f13, type: 3}
+    - {fileID: 2997135888669813862, guid: 9062dc738b76bc7489008278fc6fd9ee, type: 3}
+  - name: ricky
+    headPrefab: {fileID: 6449102228345926145, guid: b75faa9da7b300143bf0bfe676a3f5f2, type: 3}
+    torsoPrefab: {fileID: 6010687049153922209, guid: 82e034a30125c2846914b1f7d66bea99, type: 3}
+    rightArmPrefab: {fileID: 7899907505052249830, guid: 9034c57fea4ab2448a00bdfb0a656e21, type: 3}
+    leftArmPrefab: {fileID: 1319710811038917779, guid: 6da35c78246e4974a95e2b02944606c7, type: 3}
+    rightLegPrefab: {fileID: 3034699036278772456, guid: a55d2daf42debd34e979149e8038fcfd, type: 3}
+    leftLegPrefab: {fileID: 2076317217580537976, guid: 29679447bc74fd44584110757ed484bc, type: 3}
+    prefabs:
+    - {fileID: 8297330199998865244, guid: c1bfec38caecab441ad3837aa1abaefa, type: 3}
+    - {fileID: 6874364277624252402, guid: bdcd47bc26f6d3c44bad16979edcf742, type: 3}
+    - {fileID: 4380910506398589444, guid: 18e5da24028aab24e902831a8c91593b, type: 3}
+    - {fileID: 6093520939291822766, guid: 6cf9fcc253b27844ba85d3adff71fc8b, type: 3}
+    - {fileID: 6562716328641983853, guid: 5841df96e29b4e247937fee455bb4f13, type: 3}
+    - {fileID: 2997135888669813862, guid: 9062dc738b76bc7489008278fc6fd9ee, type: 3}

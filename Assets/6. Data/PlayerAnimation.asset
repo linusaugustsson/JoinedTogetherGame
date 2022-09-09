@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52989ec4dcf525f4c993662ed4b23397, type: 3}
+  m_Name: PlayerAnimation
+  m_EditorClassIdentifier: 
+  entries:
+  - type: 1
+    isLooping: 1
+    lengthInSeconds: 0
+    entries:
+    - parts: 02000000
+      normal: {x: 0.5, y: 1, z: 0.5}
+      angleMin: {x: -4.5, y: -4.5, z: -4.5}
+      angleMax: {x: 4.5, y: 4.5, z: 4.5}
+      speed: 1
+      multiplier: 1
+    - parts: 03000000
+      normal: {x: 0.5, y: 1, z: 0.5}
+      angleMin: {x: -4.5, y: -4.5, z: -4.5}
+      angleMax: {x: 4.5, y: 4.5, z: 4.5}
+      speed: 1
+      multiplier: -1
+  - type: 2
+    isLooping: 1
+    lengthInSeconds: 0
+    entries:
+    - parts: 02000000
+      normal: {x: 1, y: 0, z: 0}
+      angleMin: {x: -80, y: 0, z: 0}
+      angleMax: {x: 80, y: 0, z: 0}
+      speed: 4
+      multiplier: 1
+    - parts: 03000000
+      normal: {x: 1, y: 0, z: 0}
+      angleMin: {x: -80, y: 0, z: 0}
+      angleMax: {x: 80, y: 0, z: 0}
+      speed: 4
+      multiplier: -1
+    - parts: 04000000
+      normal: {x: 1, y: 0, z: 0}
+      angleMin: {x: -45, y: 0, z: 0}
+      angleMax: {x: 45, y: 0, z: 0}
+      speed: 4
+      multiplier: -1
+    - parts: 05000000
+      normal: {x: 1, y: 0, z: 0}
+      angleMin: {x: -45, y: 0, z: 0}
+      angleMax: {x: 45, y: 0, z: 0}
+      speed: 4
+      multiplier: 1
+  - type: 4
+    isLooping: 1
+    lengthInSeconds: 0
+    entries:
+    - parts: 0300000004000000
+      normal: {x: 1, y: 0, z: 0}
+      angleMin: {x: 45, y: 0, z: 0}
+      angleMax: {x: 65, y: 0, z: 0}
+      speed: 2
+      multiplier: 1
+    - parts: 05000000
+      normal: {x: 1, y: 0, z: 0}
+      angleMin: {x: -65, y: 0, z: 0}
+      angleMax: {x: -45, y: 0, z: 0}
+      speed: 2
+      multiplier: 1
+    - parts: 02000000
+      normal: {x: 1, y: 0, z: 0}
+      angleMin: {x: -120, y: 0, z: 0}
+      angleMax: {x: -100, y: 0, z: 0}
+      speed: 2
+      multiplier: 1
+  - type: 6
+    isLooping: 0
+    lengthInSeconds: 0.4
+    entries:
+    - parts: 03000000
+      normal: {x: 1, y: 0, z: 0}
+      angleMin: {x: 0, y: 0, z: 0}
+      angleMax: {x: 80, y: 0, z: 0}
+      speed: 1
+      multiplier: 1
+    - parts: 05000000
+      normal: {x: 1, y: 0, z: 0}
+      angleMin: {x: -90, y: 0, z: 0}
+      angleMax: {x: -45, y: 0, z: 0}
+      speed: 1
+      multiplier: 1
+    - parts: 02000000
+      normal: {x: 1, y: 0, z: 0}
+      angleMin: {x: -120, y: 0, z: 0}
+      angleMax: {x: 0, y: 0, z: 0}
+      speed: 1
+      multiplier: 1
+    - parts: 04000000
+      normal: {x: 1, y: 0, z: 0}
+      angleMin: {x: 90, y: 0, z: 0}
+      angleMax: {x: -45, y: 0, z: 0}
+      speed: 1
+      multiplier: 1
+    - parts: 01000000
+      normal: {x: 1, y: 0, z: 0}
+      angleMin: {x: 0, y: 0, z: 0}
+      angleMax: {x: 45, y: 0, z: 0}
+      speed: 1
+      multiplier: 1
+  - type: 5
+    isLooping: 1
+    lengthInSeconds: 0
+    entries:
+    - parts: 02000000
+      normal: {x: 1, y: 0, z: 1}
+      angleMin: {x: -160, y: 0, z: 5}
+      angleMax: {x: -140, y: 0, z: 0}
+      speed: 5
+      multiplier: 1
+    - parts: 03000000
+      normal: {x: 1, y: 0, z: 1}
+      angleMin: {x: -160, y: 0, z: -5}
+      angleMax: {x: -140, y: 0, z: 0}
+      speed: 5
+      multiplier: 1
+    - parts: 04000000
+      normal: {x: 1, y: 0, z: 1}
+      angleMin: {x: 65, y: 0, z: -5}
+      angleMax: {x: 45, y: 0, z: 5}
+      speed: 5
+      multiplier: 1
+    - parts: 05000000
+      normal: {x: 1, y: 0, z: 1}
+      angleMin: {x: -65, y: 0, z: 5}
+      angleMax: {x: -45, y: 0, z: -5}
+      speed: 5
+      multiplier: 1
+  - type: 3
+    isLooping: 0
+    lengthInSeconds: 0.25
+    entries:
+    - parts: 02000000
+      normal: {x: 1, y: 1, z: 0.5}
+      angleMin: {x: -120, y: -6, z: -45}
+      angleMax: {x: 0, y: 6, z: 22.5}
+      speed: 1
+      multiplier: 1
+  - type: 7
+    isLooping: 1
+    lengthInSeconds: 0
+    entries:
+    - parts: 02000000
+      normal: {x: 1, y: 1, z: 0.5}
+      angleMin: {x: -200, y: -9, z: -9}
+      angleMax: {x: -160, y: 9, z: 9}
+      speed: 8
+      multiplier: 1
+    - parts: 03000000
+      normal: {x: 1, y: 1, z: 0.5}
+      angleMin: {x: -200, y: -9, z: 9}
+      angleMax: {x: -160, y: 9, z: 9}
+      speed: 8
+      multiplier: -1
